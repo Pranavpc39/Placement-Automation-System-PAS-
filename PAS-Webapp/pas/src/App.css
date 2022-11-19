@@ -1,0 +1,8 @@
+body{
+    background-color: #EBF0FE;
+}
+.App{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,8 @@
+.company-card{
+    transition: all 500ms ease;
+}
+
+.company-card :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

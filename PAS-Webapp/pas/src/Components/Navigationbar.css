@@ -1,5 +1,12 @@
 .Navigationbar{
     display: flex;
     justify-content: flex-start;
-    color: red;
+}
+
+.nav-icons{
+    background-color: white;
+}
+
+.nav-icons :hover{
+    cursor: pointer;
 }

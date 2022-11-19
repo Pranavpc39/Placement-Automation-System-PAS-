@@ -25,8 +25,8 @@ export default class Signup extends Component {
             </Form.Group>
             <b>Already user ? <Link to='/student-login'>Login</Link></b>
             <br/>
-            <Button variant="primary" style={{backgroundColor:'#6C63FF',marginTop:'20px'}} type="submit">
-                Submit
+            <Button variant="primary" style={{backgroundColor:'#4839f5',marginTop:'20px'}} type="submit">
+              <Link style={{textDecoration:'none',color:'white'}} to='/student-information-form'>Sign up</Link>
             </Button>
         </Form>
         </div>
