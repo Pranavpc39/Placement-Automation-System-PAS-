@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import CurrentYearPieChart from '../Components/PieChartCurrentYear'
 import LineChartMonthlyPlaced from '../Components/LineChartMonthlyPlaced'
+import BiaxialBarChartCurrentYear from '../Components/BiaxialBarChartCurrentYear'
 
 export default class Statistics extends Component {
   render() {
     return (
       <div style={{marginTop:'20px',width:'100%'}}>
         <h2>Statistcs</h2>
-        <div style={{marginTop:'60px',width:'95%',display:'flex'}} className="statistics-container">
+        <br/>
+        <br/>
+        <h4>Current year statistics</h4>
+        <div style={{marginTop:'40px',width:'95%',display:'flex'}} className="statistics-container">
             <div className="left-side-statistics" style={{width:'50%'}}>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
                     <div  style={{width:'45%',boxShadow:'0 10px 15px 0 rgba(66, 133, 244,.18), 0 20px 20px 0 rgba(66, 133, 244,.15)',color:'white',display:'flex',flexDirection:'column',borderRadius:'10px',backgroundColor:'#4839f5',padding:'5px 20px',justifyContent:'space-between'}}>
@@ -35,6 +39,7 @@ export default class Statistics extends Component {
             </div>
             <div className="right-side-statistics" style={{width:'50%'}}>
                 <CurrentYearPieChart/>
+                <BiaxialBarChartCurrentYear/>
             </div>
         </div>
         
