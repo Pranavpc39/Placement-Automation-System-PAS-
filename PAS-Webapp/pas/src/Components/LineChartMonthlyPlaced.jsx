@@ -13,23 +13,23 @@ import {
   const data = [
     {
         name: 'July',
-        placed: 95,
+        placed: 142,
       },
     {
       name: 'August',
-      placed: 203,
+      placed: 223,
     },
     {
       name: 'September',
-      placed: 157,
+      placed: 197,
     },
     {
       name: 'October',
-      placed: 125,
+      placed: 175,
     },
     {
       name: 'November',
-      placed: 76,
+      placed: 131,
     },
 
   ];
