@@ -17,10 +17,10 @@ export default class Sidebar extends Component {
         </div>
         <div className="side-menu" style={{height:'60%',color:'gray',width:'100%',display:'flex',flexDirection:'column',alignItems:'center'}}>
             
-            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/student-information-form">Dashboard</Link></Button>
+            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/under-construction">Dashboard</Link></Button>
             <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/student/companies">Company List</Link></Button>
-            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/student-information-form">Track Applications</Link></Button>
-            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/student-information-form">Schedule</Link></Button>
+            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/under-construction">Track Applications</Link></Button>
+            <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/under-construction">Schedule</Link></Button>
             <Button className="menu-item"><Link style={{textDecoration:'none',color:'inherit'}} to="/student-information-form">Fill Profile</Link></Button>
             <Button className="menu-item active"><Link style={{textDecoration:'none',color:'inherit'}} to="/student/statistics">Placement Statistics</Link></Button>
         </div>

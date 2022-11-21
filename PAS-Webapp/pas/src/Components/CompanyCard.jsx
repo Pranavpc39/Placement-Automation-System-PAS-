@@ -6,7 +6,7 @@ import './CompanyCard.css';
 export default class CompanyCard extends Component {
   render() {
     return (
-      <div style={{width:'200px'}}>
+      <div style={{width:'200px',marginLeft:'10px',marginTop:'10px',marginRight:'30px'}}>
         <div className='company-card shadow' style={{width:'200px',height:'300px'}}>
             <img style={{width:'200px',height:'300px'}} src={CompanyImg} alt="company"></img>
             <div style={{fontWeight:'bold'}}>Company name</div> 

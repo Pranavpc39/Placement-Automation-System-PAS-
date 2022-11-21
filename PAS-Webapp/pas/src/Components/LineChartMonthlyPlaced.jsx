@@ -35,7 +35,6 @@ import {
   ];
 
 export default class LineChartMonthlyPlaced extends Component {
-    static demoUrl = 'https://codesandbox.io/s/synchronized-line-charts-zc3nl';
 
     render() {
       return (

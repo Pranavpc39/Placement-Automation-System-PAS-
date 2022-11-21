@@ -10,6 +10,7 @@ import Sidebar from './Components/Sidebar';
 import './App.css';
 import Companies from './Pages/Companies';
 import Statistics from './Pages/Statistics';
+import UnderContruction from './Pages/UnderContruction';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <Route path='/student-information-form' element={<StudentInformationForm/>}/>
               <Route path='/student/companies' element={<Companies/>}/>
               <Route path='/student/statistics' element={<Statistics/>}/>
+              <Route path='/under-construction' element={<UnderContruction/>}/>
             </Routes>
           </div>
         </div>

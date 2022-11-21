@@ -18,6 +18,21 @@ const data = [
       enrolled: 236,
       placed: 158,
     },
+    {
+      name: 'MECH',
+      enrolled: 252,
+      placed: 119,
+    },
+    {
+      name: 'ELE',
+      enrolled: 261,
+      placed: 125,
+    },
+    {
+      name: 'CIVIL',
+      enrolled: 205,
+      placed: 93,
+    },
   ];
   
 
